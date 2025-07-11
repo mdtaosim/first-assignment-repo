@@ -1,5 +1,5 @@
 /* font style */
-.spacial-font, .logo, .info-items {
+.spacial-font, .logo, .info-items, footer {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -7,12 +7,17 @@
 }
 
 /* sherd styel */
+body{
+    background-color: rgba(245, 248, 255, 1);
+}
+
 .primary-button {
     background-color: #4E47FF;
     color: #FFFFFF;
     border: none;
     border-radius: 10px;
     padding: 12px 36px;
+    cursor: pointer;
 }
 
 .primary-font-raleway {
@@ -118,4 +123,39 @@ nav {
     margin-top: 5px;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+}
+
+/* footer section */
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 104px 450px;
+}
+
+.footer-title{
+    font-size: 100px;
+    font-weight: 1000px;
+    color: rgba(78, 71, 255, 1);
+    margin-bottom: 0px;
+}
+
+.footer-description{
+    color: rgba(137, 135, 161, 1);
+    font-size: 20px;
+    margin: 8px auto;
+    max-width: 530px;
+}
+
+.footer-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.footer-list li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(137, 135, 161, 1);
 }
