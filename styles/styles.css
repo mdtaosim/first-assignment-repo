@@ -110,6 +110,7 @@ nav {
     justify-content: center;
     justify-content: space-around;
     gap: 150px;
+    flex-wrap: wrap;
 }
 
 .info-items h3 {
@@ -124,7 +125,61 @@ nav {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
+/* In-touch section */
+.in-touch-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+}
 
+.in-touch-column{
+    width: 528px;
+}
+
+.in-touch-title{
+    font-size: 98px;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    width: 498px;
+    padding: 20px 32px;
+    font-size: 20px;
+    margin: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+}
+
+textarea{
+    width: 498px;
+    height: 135px;
+    padding: 20px 32px;
+    font-size: 20px;
+    margin: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    width: 565px;
+    padding: 20px 32px;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(78, 71, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+form label{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px;
+}
 /* footer section */
 footer{
     background-color: white;
