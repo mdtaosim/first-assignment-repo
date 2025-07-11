@@ -12,22 +12,21 @@ body{
 }
 
 .primary-button {
-    background-color: #4E47FF;
+    background-color: #4e47ff;
     color: #FFFFFF;
     border: none;
     border-radius: 10px;
     padding: 12px 36px;
     cursor: pointer;
 }
-
+.primary-button:hover{
+    background-color: rgb(141, 130, 238);
+    font-size: 17px;
+}
 .primary-font-raleway {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-}
-
-.secondary-bg {
-    background-color: rgba(78, 71, 255, 0.01);
 }
 
 /* header */
@@ -173,6 +172,12 @@ input[type="submit"]{
     border-radius: 10px;
     background-color: rgba(78, 71, 255, 1);
     color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(141, 130, 238);
+    font-size: 17px;
 }
 
 form label{
